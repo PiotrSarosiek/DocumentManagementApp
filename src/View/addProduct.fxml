@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="207.0" prefWidth="298.0" style="-fx-border-width: 5; -fx-border-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddProduct">
+<children>
+    <Label fx:id="productNameLabel" layoutX="24.0" layoutY="14.0" prefHeight="25.0" prefWidth="253.0" text="Name:" visible="false" />
+    <TextField fx:id="productNameTextField" layoutX="21.0" layoutY="38.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <Label fx:id="productPriceLabel" layoutX="157.0" layoutY="18.0" prefHeight="17.0" prefWidth="149.0" text="Price:" visible="false" />
+    <TextField fx:id="productPriceTextField" layoutX="157.0" layoutY="38.0" prefHeight="25.0" prefWidth="112.0" visible="false" />
+    <Label fx:id="productQuantity1Label" layoutX="22.0" layoutY="74.0" prefHeight="17.0" prefWidth="149.0" text="Quantity:" visible="false" />
+    <TextField fx:id="productQuantity1TextField" layoutX="22.0" layoutY="95.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <Label fx:id="productQuantity2Label" layoutX="22.0" layoutY="55.0" prefHeight="17.0" prefWidth="149.0" text="Quantity:" visible="false" />
+    <TextField fx:id="productQuantity2TextField" layoutX="22.0" layoutY="82.0" prefHeight="25.0" prefWidth="105.0" visible="false" />
+    <Button fx:id="addButton" layoutX="232.0" layoutY="148.0" mnemonicParsing="false" onAction="#addAction" prefHeight="25.0" prefWidth="38.0" text="Add" visible="false" />
+    <ComboBox fx:id="taxComboBox" layoutX="157.0" layoutY="95.0" prefHeight="25.0" prefWidth="112.0" visible="false" />
+    <Label fx:id="taxLabel" layoutX="157.0" layoutY="74.0" text="Select tax:" visible="false" />
+    <ComboBox fx:id="productsComboBox" layoutX="146.0" layoutY="82.0" prefHeight="25.0" prefWidth="128.0" visible="false" />
+    <Label fx:id="chooseProductLabel" layoutX="145.0" layoutY="55.0" prefHeight="17.0" prefWidth="120.0" text="Select product:" visible="false" />
+    <Button fx:id="newProduct" layoutX="36.0" layoutY="82.0" mnemonicParsing="false" onAction="#newProductAction" prefHeight="25.0" prefWidth="98.0" text="New product" visible="true" />
+    <Button fx:id="existProduct" layoutX="145.0" layoutY="82.0" mnemonicParsing="false" onAction="#existingProductAction" prefHeight="25.0" prefWidth="120.0" text="Existing product" visible="true" />
+    <Label fx:id="chooseTypeLabel" layoutX="96.0" layoutY="31.0" text="Choose the option" visible="true" />
+</children>
+</Pane>

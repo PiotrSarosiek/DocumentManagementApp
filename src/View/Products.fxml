@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-border-width: 5; -fx-border-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Products">
+   <children>
+      <Button layoutX="24.0" layoutY="316.0" mnemonicParsing="false" onAction="#AddProduct" text="AddProduct" />
+      <Button layoutX="24.0" layoutY="354.0" mnemonicParsing="false" onAction="#ReduceProductQuantity" text="Reduce Product Quantity" />
+      <TableView fx:id="tableView" layoutX="215.0" layoutY="21.0" prefHeight="356.0" prefWidth="360.0" />
+      <Button layoutX="24.0" layoutY="25.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <TextField fx:id="quantityField" layoutX="179.0" layoutY="354.0" prefHeight="25.0" prefWidth="28.0" promptText="0" />
+   </children>
+</AnchorPane>

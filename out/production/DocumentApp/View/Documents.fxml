@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-border-width: 5; -fx-border-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Documents">
+    <children>
+        <Button layoutX="505.0" layoutY="355.0" mnemonicParsing="false" onAction="#ViewMore" text="ViewMore" />
+        <TableView fx:id="tableView" layoutX="174.0" layoutY="21.0" prefHeight="326.0" prefWidth="401.0" />
+        <Button layoutX="24.0" layoutY="25.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Button layoutX="23.0" layoutY="355.0" mnemonicParsing="false" onAction="#XLSXButton" text="XLSX" />
+      <Button layoutX="79.0" layoutY="355.0" mnemonicParsing="false" onAction="#PDFButton" text="PDF" />
+      <Label layoutX="23.0" layoutY="330.0" text="Generate report" />
+    </children>
+</AnchorPane>

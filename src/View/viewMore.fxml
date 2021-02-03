@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-border-width: 5; -fx-border-color: #fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ViewMore">
+   <children>
+      <TableView fx:id="tableView" layoutX="15.0" layoutY="16.0" prefHeight="300.0" prefWidth="570.0" />
+      <Button layoutX="15.0" layoutY="353.0" mnemonicParsing="false" onAction="#Back" text="Back" />
+      <Label layoutX="436.0" layoutY="328.0" text="Total price with tax" />
+      <TextField fx:id="TotalPriceVatTextField" layoutX="436.0" layoutY="353.0" />
+      <Label layoutX="277.0" layoutY="328.0" text="Discount" />
+      <TextField fx:id="DiscountTextField" layoutX="276.0" layoutY="353.0" />
+   </children>
+</AnchorPane>
